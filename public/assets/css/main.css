@@ -4,8 +4,20 @@
 }
 
 /* .hero-image {
-    background: url(./images/banner_bg2.png);
+    background-image: url('./asstes/images/banner_bg2.png');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 700px;
 
 } */
+.hero-header {
+    color: white;
+    background-color: rgb(30, 30, 30);
+    display: inline-block;
+    font-size: 48px;
+}
+
+.hero-item {
+    padding: 20px;
+    margin: 20px;
+}
