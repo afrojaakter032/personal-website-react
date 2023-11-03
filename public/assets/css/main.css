@@ -8,12 +8,49 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+:root {
+    --primary: #55E6A5;
+
+}
+
+.layout-space {
+
+    padding-left: 15px;
+}
+
 .hero-image {
     background-image: url('./../images/banner_bg2.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
 
+}
+.btn {
+    border-radius: 0%;
+
+}
+
+.btn-primary {
+    background-color: var(--primary) !important;
+    border-color:  var(--primary) !important;
+    color: #1d1d1d;
+    
+}
+.btn-primary:hover {
+    background-color: #1d1d1d !important;
+    border-color:#1d1d1d !important;
+    color: white;
+    
+}
+.btn-circle{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: var(--primary) !important;
+}
+
+.btn-circle i {
+    color: black;
 }
 
 
