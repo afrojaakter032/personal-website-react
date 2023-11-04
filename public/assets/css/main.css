@@ -53,5 +53,18 @@ body {
     color: black;
 }
 
+/* about section */
+.experience-image {
+    position: relative;
+}
+
+.experience-card {
+    position: absolute;
+    background: var(--primary);
+    height: 80px;
+    width: 200px;
+    right: 0;
+}
+
 
 
