@@ -39,11 +39,31 @@ export default function Home() {
                 <div className="container-fluid">
                     <div className='row'>
                         <div className="col-lg-12">
-                            <div className="layout-space">
+                            <div className="layout-space pb-5">
                                 <div className="h3">ABOUTE ME</div>
                                 <div className="display-6 fw-bold">Crafting stories through design and innovation</div>
+                            </div>
+
+                            <div className="row">
+                            <div className="col-lg-6">
+                                <div className="layout-space pb-5">
+                                    <img className="" src="./assets/images/about_1.png" alt="image" />
+                                    <div className="display-6 fw-bold pb-2">My Ambition</div>
+                                    <p className="fs-5 w-90">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
+                                </div>
+                                <div className="layout-space pb-5">
+                                    <img className="" src="./assets/images/about_2.png" alt="image" />
+                                    <div className="display-6 fw-bold pb-2">My Purpose</div>
+                                    <p className="fs-5 w-90">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
+                                </div>
 
                             </div>
+                            <div className="col-lg-6">
+                                <img className="" src="./assets/images/about_img_2.jpg" alt="image" style={{width:"auto",height:"auto"}} />
+
+                            </div>
+                            </div>
+
                         </div>
 
                     </div>
