@@ -59,10 +59,12 @@ export default function Home() {
 
                             </div>
                             <div className="col-lg-6 experience-image">
+                                <img src="./assets/images/about_shapes.png" alt="image" className="experience-decor" height={150} width={150} />
                                 <img className="" src="./assets/images/about_img_2.jpg" alt="image" width={"auto"} height={"auto"} />
-                                <div className="experience-card pb-5 d-flex align-items-center justify-content-center">
-                                    <div><i class="ph-fill ph-seal display-4 "></i></div>
-                                    <div>15+</div>
+                                <div className="experience-card pb-5 d-flex align-items-center justify-content-start">
+                                    <div className="pt-4 px-2"><i class="ph-fill ph-seal display-1"></i></div>
+                                    <div className=" text-color fw-bold fs-1 px-2">15+</div>
+                                    {/* <div>Years of Experience</div> */}
                                 </div>
 
                             </div>
@@ -73,6 +75,18 @@ export default function Home() {
 
 
             {/* about section ends here */}
+            {/* service section starts here */}
+            <section className="service-section">
+                <div className="container-fluid">
+                    <div className="row">
+
+                    </div>
+
+                </div>
+            </section>
+
+
+            {/* service section ends here */}
         </main>
     </>
   );
