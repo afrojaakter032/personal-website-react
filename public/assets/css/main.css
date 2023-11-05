@@ -10,13 +10,25 @@ body {
 
 :root {
     --primary: #55E6A5;
+    --colorwhite: #fff;
+    --colorblack: black;
 
 }
-
+.mt-150 {
+    margin-top: 150px;
+}
 .layout-space {
 
     padding-left: 15px;
 }
+.text-primary{
+    
+    color: var(--primary) !important;
+}
+.text-secondary{
+    color: var(--colorblack) !important;
+}
+
 
 .hero-image {
     background-image: url('./../images/banner_bg2.png');
@@ -63,22 +75,26 @@ body {
     background: var(--primary);
     height: 130px;
     width: 300px;
-    bottom: 50px;
-    right: 0px;
+    bottom: 0px;
+    right: 90px;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 
 }
-.text-color{
-    color: black;
+.experience-badge i {
+    background: var(--colorwhite);
+    color: var(--primary);
 }
+
 
 .experience-decor {
     position: absolute;
-    left: -50px;
+    right: -0px;
     top: -40px;
     z-index: -1;
+    height: 200px;
+    width: 200px;
 }
 
 
