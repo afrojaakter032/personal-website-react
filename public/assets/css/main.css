@@ -10,9 +10,14 @@ body {
 
 :root {
     --primary: #55E6A5;
-    --colorwhite: #fff;
+    --white: #fff;
     --colorblack: black;
+    --gray: #09101a;
 
+}
+.card{
+    background-color: var(--gray);
+    color: var(--white);
 }
 .mt-150 {
     margin-top: 150px;
@@ -83,7 +88,7 @@ body {
 
 }
 .experience-badge i {
-    background: var(--colorwhite);
+    background: var(--white);
     color: var(--primary);
 }
 
@@ -97,5 +102,6 @@ body {
     width: 200px;
 }
 
+/* service section */
 
 

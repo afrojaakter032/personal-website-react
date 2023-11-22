@@ -78,23 +78,35 @@ export default function Home() {
 
             {/* about section ends here */}
             {/* service section starts here */}
-            <section className="service-section mt-150">
+            <section className="service-section mt-150 layout-space">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="layout-space pb-5 text-center">
                                 <div className="h3 text-primary">MY SERVICE</div>
                                 <div className="display-6 fw-bold">Bringing your vision to life with precision and passion</div>
-                            </div>   
+                            </div>  
 
 
+                        </div>
+
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-4">
+                            <div class="card" style={{width: "18rem;"}}>
+                                <div class="card-body">
+                                    <h5 class="card-title fs-4 fw-bolde">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            
                         </div>
 
                     </div>
 
                 </div>
             </section>
-           
             {/* service section ends here */}
 
 
