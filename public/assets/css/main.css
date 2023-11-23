@@ -103,5 +103,43 @@ body {
 }
 
 /* service section */
+.card-body {
+    position: relative;
+}
+
+.card-badge {
+    position: absolute;
+    background: var(--primary);
+    height: 80px;
+    width: 80px;
+    top: -40px;
+    left: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+.card-badge-font {
+    color: var(--colorblack);
+
+}
+.btn-about-me-section{
+    border: 1px #55E6A5 solid;
+    color: var(--white);
+    position: absolute;
+    left: 90px;
+
+
+}
+
+.btn-about-me-section:hover{
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+/* skills section */
+.skills-section {
+    background: var(--gray);
+}
 
 
