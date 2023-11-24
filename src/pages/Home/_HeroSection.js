@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../components/Layout/UI/Button";
 function HeroSection(){
     return(
         <>
@@ -15,8 +16,9 @@ function HeroSection(){
                                     <p className="fs-5 w-50">I'm a passionate UI/UX designer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
                                 </div>
                                 <div className="d-flex  align-items-center">
-                                    <div className=" pt-5">
-                                        <button className="btn btn-primary px-4 py-3 fw-bold">Dawnload Cv <i class="ph ph-download-simple"> </i></button>
+                                    <div className=" pt-5 ">
+                                        {/* <button className="btn btn-primary px-4 py-3 fw-bold">{"text"=text} <i class="ph ph-download-simple"> </i></button> */}
+                                        <Button text="Download CV" icon="ph ph-download-simple" className="px-4 py-3 fw-bold" />
                                     </div>
 
                                     <div className=" px-4 pt-5">

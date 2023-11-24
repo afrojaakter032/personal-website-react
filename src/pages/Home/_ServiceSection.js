@@ -3,17 +3,17 @@ import React from "react";
 function ServiceSection() {
   let cards = [
     {
-      symbol: <i className="ph ph-browser"></i> ,
+      icon: "ph ph-browser" ,
       title: "WEBSITE DESIGN",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
     },
     {
-      symbol:<i class="ph ph-framer-logo"></i>,
+      icon:"ph ph-framer-logo",
       title: "LOGO DESIGN",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
     },
     {
-      symbol: <i class="ph ph-app-window"></i> ,
+      icon: "ph ph-app-window",
       title: "APPS DEVELOPMENT",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
     },
@@ -39,7 +39,7 @@ function ServiceSection() {
                     <div className="card" style={{ width: "18rem" }}>
                     <div className="card-body pt-5">
                         <div className="card-badge d-flex align-items-center justify-content-center">
-                        <i className="ph ph-browser card-badge-font display-2 fw-bloder"></i>
+                        <i className={`${card.icon} card-badge-font display-2 fw-bloder`}></i>
                         </div>
                         <h5 className="card-title fs-4 pt-3 fw-bolder">
                         {card.title}

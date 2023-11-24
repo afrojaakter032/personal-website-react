@@ -13,7 +13,25 @@ body {
     --white: #fff;
     --colorblack: black;
     --gray: #09101a;
+    --gray-900: #141c27;
 
+}
+.btn-gray {
+    background-color: var(--gray) !important;
+    color: var(--white);
+    border: none;
+    
+}
+.btn-gray-900 {
+    background-color: var(--gray-900) !important;
+    color: var(--white);
+    border: none;
+    
+}
+.btn-gray-900:hover {
+    background-color: var(--primary) !important;
+    color: var(--colorblack);
+    
 }
 .card{
     background-color: var(--gray);
@@ -111,7 +129,7 @@ body {
     position: absolute;
     background: var(--primary);
     height: 80px;
-    width: 80px;
+    width: 100px;
     top: -40px;
     left: 20px;
     padding: 15px;
@@ -141,5 +159,9 @@ body {
 .skills-section {
     background: var(--gray);
 }
+
+
+
+
 
 
