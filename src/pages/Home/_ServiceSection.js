@@ -36,7 +36,7 @@ function ServiceSection() {
             <div className="row">
                 {cards.map((card, index) => (
                 <div className="col-lg-4 mt-150" key={index}>
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card" style={{ width: "100%" , height:"250px"}}>
                     <div className="card-body pt-5">
                         <div className="card-badge d-flex align-items-center justify-content-center">
                         <i className={`${card.icon} card-badge-font display-2 fw-bloder`}></i>

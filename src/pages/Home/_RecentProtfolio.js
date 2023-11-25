@@ -11,13 +11,30 @@ function RecentProtfolio() {
                         <div className="layout-space py-5">
                             <div className="h3 text-primary">MY RECENT PORTFOLIO</div>
                             <div className="display-6 fw-bold w-75">
-                            Elevate your brand to new heights with our portfolio expertise
+                                Elevate your brand to new heights with our portfolio expertise
                             </div>
                         </div>
                         </div>
                     </div>
-                    <div className="protfolio-gallery-section">
-
+                    <div className="protfolio-gallery">
+                        <div className="row g-3">
+                            <div className="col-lg-4">
+                                <img src="assets/images/5.png" alt="image" style={{width: "100%", height:"500px"}} />
+                            </div>
+                            <div className="col-lg-4">
+                                <img src="assets/images/6.png" alt="image" style={{width: "100%", height:"500px"}} />
+                            </div>
+                        
+                            <div className="col-lg-4">
+                                <img src="assets/images/7.png" alt="image" style={{width: "100%", height:"500px"}} />
+                            </div>
+                            <div className="col-lg-4">
+                                <img src="assets/images/8.png" alt="image" style={{width: "100%", height:"500px"}} />
+                            </div>
+                            <div className="col-lg-4">
+                                <img src="assets/images/9.png" alt="image" style={{width: "100%", height:"500px"}} />
+                            </div>
+                        </div> 
                     </div>
                 </div>
             </section>
