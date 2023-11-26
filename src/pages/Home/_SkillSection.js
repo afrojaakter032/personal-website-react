@@ -41,7 +41,7 @@ function SkillSection() {
                             </div>
                         </div>
                     </div>
-                    <div className="row mt-150  g-4">
+                    <div className="row mt-150 py-5  g-4">
                         <div className="col-lg-6">
                             <div class="card skills-card px-3 " style={{width: "8rem;"}}>
                                 <div class="card-body">

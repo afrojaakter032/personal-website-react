@@ -35,6 +35,27 @@ function RecentProtfolio() {
                                 <img src="assets/images/9.png" alt="image" style={{width: "100%", height:"500px"}} />
                             </div>
                         </div> 
+                        <div className="row py-5">
+                            <div className="container">
+                                <div className="col-lg-12">
+                                    <div className="marquee_animi">
+                                        <div className="mt-150">
+                                        <marquee direction="scroll">
+                                            <ul className="d-flex align-items-center justify-content-center gap-3">
+                                                <li>* PHP</li>
+                                                <li>* Pyrhon</li>
+                                                <li>* design</li>
+                                                <li>* world</li>
+                                                <li>* Development</li>
+                                            </ul>
+                                        </marquee>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </section>
