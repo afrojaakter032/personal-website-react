@@ -176,23 +176,27 @@ body {
 
 /* recent-protfolio-section  */
 
-/* .protfolio-gallery-slider {
+.protfolio-gallery-slider {
     background-color: var(--primary);
     height: 200px;
     width: 100%;
-} */
-
-marquee {
-    width: 100%;
-    height: 200px;
-    background-color: var(--primary);
-
 }
 
-marquee ul li {
-    text-decoration: none;
-    font-size: 50px;
-    font-weight: 800;
+/* marquee {
+    width: 100%;
+    height: 200px;
+    background-color: var(--primary);
+
+} */
+.protfolio-slider-content ul {
+    list-style: none;
+   
+}
+.protfolio-slider-content ul li {
+    font-size: 110px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 20px;
 
 }
 

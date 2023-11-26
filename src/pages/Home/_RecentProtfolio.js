@@ -37,24 +37,25 @@ function RecentProtfolio() {
                         </div> 
                         <div className="row py-5">
                             <div className="container">
-                                <div className="col-lg-12">
-                                    <div className="marquee_animi">
-                                        <div className="mt-150">
-                                        <marquee direction="scroll">
-                                            <ul className="d-flex align-items-center justify-content-center gap-3">
-                                                <li>* PHP</li>
-                                                <li>* Pyrhon</li>
-                                                <li>* design</li>
-                                                <li>* world</li>
-                                                <li>* Development</li>
-                                            </ul>
-                                        </marquee>
-                                        </div>
+                                <div className="protfolio-gallery-slider">
+                                    <div className="col-lg-12">
+                                    <div className="mt-150">
+                                            {/* <marquee direction="scroll"> */}
+                                                <div className="protfolio-slider-content">
+                                                    <ul className="  d-flex align-items-center justify-content-center gap-3">
+                                                        <li>* PHP</li>
+                                                        <li>* Pyrhon</li>
+                                                        <li>* design</li>
+                                                        <li>* world</li>
+                                                        <li>* Development</li>
+                                                    </ul>
+                                                </div>
+                                            {/* </marquee> */}
+                                            </div>
                                     </div>
                                 </div>
 
                             </div>
-
                         </div>
                     </div>
                 </div>
