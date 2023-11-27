@@ -190,17 +190,22 @@ body {
 } */
 .protfolio-slider-content ul {
     list-style: none;
+
    
 }
 .protfolio-slider-content ul li {
-    font-size: 110px;
-    font-weight: 700;
+    font-size: 80px;
+    font-weight: 200;
     text-transform: uppercase;
-    padding-left: 20px;
+
 
 }
 
+/* blog section */
 
+.blog-section {
+    background: var(--gray);
+}
 
 
 
