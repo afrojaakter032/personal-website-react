@@ -176,11 +176,11 @@ body {
 
 /* recent-protfolio-section  */
 
-.protfolio-gallery-slider {
+/* .protfolio-gallery-slider {
     background-color: var(--primary);
     height: 200px;
     width: 100%;
-}
+} */
 
 /* marquee {
     width: 100%;
@@ -188,15 +188,30 @@ body {
     background-color: var(--primary);
 
 } */
+
+.protfolio-slider-content {
+    background-color: var(--primary);
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
 .protfolio-slider-content ul {
     list-style: none;
+    
 
    
 }
 .protfolio-slider-content ul li {
-    font-size: 80px;
-    font-weight: 200;
+    font-size: 100px;
+    font-weight: 700;
     text-transform: uppercase;
+    text-wrap: nowrap;
+    -webkit-text-stroke: 2px #000;
+    -webkit-text-fill-color: transparent;
+    
+    
+    
+    
 
 
 }
