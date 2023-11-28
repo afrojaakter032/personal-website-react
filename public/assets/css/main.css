@@ -222,6 +222,17 @@ body {
     background: var(--gray);
 }
 
+/* footer-section */
+
+.card-img i {
+    color: var(--primary);
+
+}
+.form-control {
+    background-color: var(--colorblack);
+    color: var(--white);
+}
+
 
 
 

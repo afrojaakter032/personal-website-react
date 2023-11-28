@@ -5,6 +5,7 @@ import ServiceSection from './_ServiceSection';
 import SkillSection from './_SkillSection';
 import RecentProtfolio from './_RecentProtfolio';
 import BlogSection from './_BlogSection';
+import FooterSection from './_FooterSection';
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
             <RecentProtfolio />
 
             <BlogSection />
+
+            <FooterSection />
         </main>
 
     </>
