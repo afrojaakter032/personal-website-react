@@ -43,7 +43,7 @@ function RecentProtfolio() {
                                                     <marquee direction="scroll">
                                                         <ul className="d-flex gap-3">
                                                             <li>* PHP</li>
-                                                            <li>* Pyrhon</li>
+                                                            <li>* Python</li>
                                                             <li>* design</li>
                                                             <li>* world</li>
                                                             <li>* Development</li>
@@ -52,7 +52,6 @@ function RecentProtfolio() {
                                                 </div>
                                             </div>
                                     </div>
-
                             </div>
                         </div>
                     </div>

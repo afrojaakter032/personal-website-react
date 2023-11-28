@@ -33,6 +33,9 @@ body {
     color: var(--colorblack);
     
 }
+::placeholder {
+    color: white !important;
+}
 .card{
     background-color: var(--gray);
     color: var(--white);
@@ -197,9 +200,6 @@ body {
 }
 .protfolio-slider-content ul {
     list-style: none;
-    
-
-   
 }
 .protfolio-slider-content ul li {
     font-size: 100px;
@@ -208,12 +208,6 @@ body {
     text-wrap: nowrap;
     -webkit-text-stroke: 2px #000;
     -webkit-text-fill-color: transparent;
-    
-    
-    
-    
-
-
 }
 
 /* blog section */
@@ -226,11 +220,27 @@ body {
 
 .card-img i {
     color: var(--primary);
-
+    text-decoration: none;
+}
+.card-body a {
+    text-decoration: none;
+    color: var(--white);
+}
+.card-body a :hover {
+    color: var(--primary);
 }
 .form-control {
-    background-color: var(--colorblack);
+    background-color: var(--colorblack)!important;
+}
+
+
+.right a {
     color: var(--white);
+    text-decoration: none;
+}
+
+.right a:hover {
+    color: var(--primary);
 }
 
 

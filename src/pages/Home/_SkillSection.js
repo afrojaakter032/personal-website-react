@@ -1,21 +1,9 @@
 
 import Button from "../../components/Layout/UI/Button";
-import React, { useState, useEffect } from 'react';
+import ProgressBar from "@ramonak/react-progress-bar";
+
 
 function SkillSection() {
-    let [progress, setProgress] = useState(0);
-
-  useEffect(() => {
-
-    let interval = setInterval(() => {
-
-      setProgress((prevProgress) => (prevProgress >= 100 ? 0 : prevProgress + 5));
-    }, 5000);
-
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
 
     return(
         <>
@@ -51,9 +39,14 @@ function SkillSection() {
                                     <h6>2019 - Present</h6>
                                     <p className="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
                                     <h6 className="card-footer px-0">Performence</h6>
-                                    <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30" style={{height: "5px"}}>
-                                        <div className="progress-bar" style={{width: "75%"}}></div>
-                                    </div>
+                                    <ProgressBar
+                                        height="5px"
+                                        bgColor="#55E6A5"
+                                        isLabelVisible={false}
+                                        animateOnRender={true}
+                                        transitionDuration="3s"
+                                        completed="75">
+                                     </ProgressBar>
                                 </div>
                             </div>
                         </div>
@@ -66,9 +59,14 @@ function SkillSection() {
                                     <h6>2019 - Present</h6>
                                     <p className="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
                                     <h6 className="card-footer px-0">Performence</h6>
-                                    <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30" style={{height: "5px"}}>
-                                        <div className="progress-bar" style={{width: "75%"}}></div>
-                                    </div>
+                                    <ProgressBar
+                                        height="5px"
+                                        bgColor="#55E6A5"
+                                        isLabelVisible={false}
+                                        animateOnRender={true}
+                                        transitionDuration="3s"
+                                        completed="75">
+                                     </ProgressBar>
                                 </div>
                             </div>
                         </div>
@@ -81,9 +79,14 @@ function SkillSection() {
                                     <h6>2019 - Present</h6>
                                     <p className="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
                                     <h6 className="card-footer px-0">Performence</h6>
-                                    <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30" style={{height: "5px"}}>
-                                        <div className="progress-bar" style={{width: "75%"}}></div>
-                                    </div>
+                                    <ProgressBar
+                                        height="5px"
+                                        bgColor="#55E6A5"
+                                        isLabelVisible={false}
+                                        animateOnRender={true}
+                                        transitionDuration="3s"
+                                        completed="75">
+                                    </ProgressBar>
                                 </div>
                             </div>
                         </div>
@@ -96,9 +99,14 @@ function SkillSection() {
                                     <h6>2019 - Present</h6>
                                     <p className="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
                                     <h6 className="card-footer px-0">Performence</h6>
-                                    <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30" style={{height: "5px"}}>
-                                        <div className="progress-bar" style={{width: "75%"}}></div>
-                                    </div>
+                                    <ProgressBar
+                                        height="5px"
+                                         bgColor="#55E6A5"
+                                        isLabelVisible={false}
+                                         animateOnRender={true}
+                                        transitionDuration="3s"
+                                        completed="75">
+                                     </ProgressBar>
                                 </div>
                             </div>
                         </div>

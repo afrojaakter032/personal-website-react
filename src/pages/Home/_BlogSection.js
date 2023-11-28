@@ -16,7 +16,7 @@ function BlogSection() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-lg-6 py-5">
+                        <div className="col-lg-4 py-5">
                             <img src="/assets/images/4.jpg" alt="image" />
                             <div className="d-flex gap-3">
                                 <div><i class="ph ph-user-circle px-3"></i>By admin </div>
@@ -26,7 +26,7 @@ function BlogSection() {
                             <p className="fs-4">Lorem Ipsum is simply dummy text of the printing and types etting in our company here thisn designers give me more design here […]</p>
 
                         </div>
-                        <div className="col-lg-6 py-5">
+                        <div className="col-lg-4 py-5">
                             <img src="/assets/images/5.jpg" alt="image" />
                             <div className="d-flex gap-3">
                                 <div><i class="ph ph-user-circle px-3"></i>By admin </div>
@@ -36,7 +36,7 @@ function BlogSection() {
                             <p className="fs-4">Lorem Ipsum is simply dummy text of the printing and types etting in our company here thisn designers give me more design here […]</p>
 
                         </div>
-                        <div className="col-lg-6 py-5">
+                        <div className="col-lg-4 py-5">
                             <img src="/assets/images/6.jpg" alt="image" />
                             <div className="d-flex gap-3">
                                 <div><i class="ph ph-user-circle px-3"></i>By admin </div>
