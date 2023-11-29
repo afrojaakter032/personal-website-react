@@ -8,6 +8,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 :root {
     --primary: #55E6A5;
     --white: #fff;
@@ -89,6 +90,39 @@ body {
 
 .btn-circle i {
     color: black;
+}
+
+/* sidebar */
+
+.sidebar-section {
+    background-color: var(--gray) !important;
+}
+
+.offcanvas-title {
+    background-color: var(--gray-900);
+    font-style: italic;
+	text-transform: uppercase;
+	color: var(--primary);
+	-webkit-text-stroke: #fff;
+	-webkit-text-stroke-width: 1px;
+	text-shadow: 2px 2px 10px $blue;
+	transition: all 0.5s ease-in-out;
+	letter-spacing: 0.2em;
+	animation: flicker 0.5s ease-in-out infinite alternate;
+    &:hover {
+		color: #fff;
+	}
+}
+
+@keyframes flicker {
+	0% {
+		opacity: 0.5;
+		text-shadow: 2px 2px 10px $blue;
+	}
+	100% {
+		opacity: 1;
+		text-shadow: 2px 2px 20px $blue;
+	}
 }
 
 /* about section */
