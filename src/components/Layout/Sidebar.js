@@ -5,7 +5,7 @@ function Sidebar() {
     return (
         <>
             <section className="sidebar-section">
-                <button className="btn btn-primary btn-offcanvas mt-3 mx-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft"><i className="ph ph-list fs-3"></i></button>
+                <button className="btn btn-primary btn-offcanvas mt-3 mx-3"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft"><i className="ph ph-list fs-3"></i></button>
 
                 <div className="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
                     <div className="offcanvas-header">
@@ -20,17 +20,17 @@ function Sidebar() {
                                 {/* <Button text="Home" className="px-5 py-2 fs-3 fw-bold" color="gray-900" /> */}
                             </li>
                             <li class="nav-item d-flex gap-2 justify-content-start align-items-center">
-                                <button className="btn btn-primary"><i className="ph ph-house fs-5"></i></button>
+                                <button className="btn btn-primary"><i class="ph ph-disc fs-5"></i></button>
                                 <button className="btn "><a className="nav-link active fs-4" href="#">About Me</a></button>
                                 {/* <Button text="Home" className="px-5 py-2 fs-3 fw-bold" color="gray-900" /> */}
                             </li>
                             <li class="nav-item d-flex gap-2 justify-content-start align-items-center">
-                                <button className="btn btn-primary"><i className="ph ph-house fs-5"></i></button>
+                                <button className="btn btn-primary"><i class="ph ph-package fs-5"></i></button>
                                 <button className="btn "><a className="nav-link active fs-4" href="#">Service</a></button>
                                 {/* <Button text="Home" className="px-5 py-2 fs-3 fw-bold" color="gray-900" /> */}
                             </li>
                             <li class="nav-item d-flex gap-2 justify-content-start align-items-center">
-                                <button className="btn btn-primary"><i className="ph ph-house fs-5"></i></button>
+                                <button className="btn btn-primary"><i class="ph ph-user-focus fs-5"></i></button>
                                 <button className="btn "><a className="nav-link active fs-4" href="#">Skills</a></button>
                                 {/* <Button text="Home" className="px-5 py-2 fs-3 fw-bold" color="gray-900" /> */}
                             </li>
