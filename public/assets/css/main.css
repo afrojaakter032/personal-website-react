@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: black;
     color: white;
@@ -102,7 +105,7 @@ body {
 }
 
 .offcanvas-title {
-    background-color: var(--gray-900);
+    background-color: var(--gray);
     font-style: italic;
 	color: var(--primary);
 	-webkit-text-stroke: #fff;
@@ -126,6 +129,9 @@ body {
 	}
 }
 
+.btn-icon {
+    border-radius: 5px;
+}
 /* about section */
 .experience-image {
     position: relative;

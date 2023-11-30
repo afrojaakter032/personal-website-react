@@ -53,10 +53,10 @@ function SkillSection() {
                         <div className="col-lg-6">
                             <div class="card skills-card px-3 " style={{width: "8rem;"}}>
                                 <div class="card-body">
-                                    <h6 className="card-title">Creative Agency</h6>
+                                    <h6 className="card-title">Apple Technology</h6>
                                     <hr className="title-underline"/>
-                                    <h5 className="card-sub-title">Framer Designer & Developer</h5>
-                                    <h6>2019 - Present</h6>
+                                    <h5 className="card-sub-title">Web Application Manager</h5>
+                                    <h6>2009 - 2012</h6>
                                     <p className="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
                                     <h6 className="card-footer px-0">Performence</h6>
                                     <ProgressBar
@@ -73,10 +73,10 @@ function SkillSection() {
                         <div className="col-lg-6">
                             <div class="card skills-card px-3 " style={{width: "8rem;"}}>
                                 <div class="card-body">
-                                    <h6 className="card-title">Creative Agency</h6>
+                                    <h6 className="card-title">Softech Agency</h6>
                                     <hr className="title-underline"/>
-                                    <h5 className="card-sub-title">Framer Designer & Developer</h5>
-                                    <h6>2019 - Present</h6>
+                                    <h5 className="card-sub-title">Wordpress and End Developer</h5>
+                                    <h6>2014 - 2018</h6>
                                     <p className="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
                                     <h6 className="card-footer px-0">Performence</h6>
                                     <ProgressBar
@@ -93,10 +93,10 @@ function SkillSection() {
                         <div className="col-lg-6">
                             <div class="card skills-card px-3 " style={{width: "8rem;"}}>
                                 <div class="card-body">
-                                    <h6 className="card-title">Creative Agency</h6>
+                                    <h6 className="card-title">Kent State University</h6>
                                     <hr className="title-underline"/>
                                     <h5 className="card-sub-title">Framer Designer & Developer</h5>
-                                    <h6>2019 - Present</h6>
+                                    <h6>2005 - 2009</h6>
                                     <p className="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
                                     <h6 className="card-footer px-0">Performence</h6>
                                     <ProgressBar
