@@ -4,6 +4,42 @@ import ProgressBar from "@ramonak/react-progress-bar";
 
 
 function SkillSection() {
+    let skills = [
+        {
+            title:"Creative Agency",
+            sub_title:"Framer Designer & Developer",
+            text:"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
+            footer:"Performence",
+            date:"2019 - Present",
+            completed: 70
+        },
+
+        {
+            title:"Apple Technology",
+            sub_title:"Web Application Manager",
+            text:"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
+            footer:"Performence",
+            date:"2009 - 2012",
+            completed: 80
+        },
+
+        {
+            title:"Softech Agency",
+            sub_title:"Wordpress and End Developer",
+            text:"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
+            footer:"Performence",
+            date:"2014 - 2018",
+            completed: 65
+        },
+        {
+            title:"Kent State University",
+            sub_title:"Wordpress and End Developer",
+            text:"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
+            footer:"Performence",
+            date:"2005 - 2009",
+            completed: 50
+        }
+    ]
 
     return(
         <>
@@ -30,86 +66,29 @@ function SkillSection() {
                         </div>
                     </div>
                     <div className="row mt-150 py-5  g-4">
-                        <div className="col-lg-6">
-                            <div class="card skills-card px-3 " style={{width: "8rem;"}}>
-                                <div class="card-body">
-                                    <h6 className="card-title">Creative Agency</h6>
-                                    <hr className="title-underline"/>
-                                    <h5 className="card-sub-title">Framer Designer & Developer</h5>
-                                    <h6>2019 - Present</h6>
-                                    <p className="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
-                                    <h6 className="card-footer px-0">Performence</h6>
-                                    <ProgressBar
-                                        height="5px"
-                                        bgColor="#55E6A5"
-                                        isLabelVisible={false}
-                                        animateOnRender={true}
-                                        transitionDuration="3s"
-                                        completed="75">
-                                     </ProgressBar>
+                        {skills.map((skill, index) => (
+                            <div className="col-lg-6" key={index}>
+                                <div class="card skills-card px-3 " style={{width: "8rem;"}}>
+                                    <div class="card-body">
+                                        <h6 className="card-title">{skill.title}</h6>
+                                        <hr className="title-underline"/>
+                                        <h5 className="card-sub-title">{skill.sub_title}</h5>
+                                        <h6>{skill.date}</h6>
+                                        <p className="card-text">{skill.text}</p>
+                                        <h6 className="card-footer px-0">{skill.footer}</h6>
+                                        <ProgressBar
+                                            height="5px"
+                                            bgColor="#55E6A5"
+                                            isLabelVisible={false}
+                                            animateOnRender={true}
+                                            transitionDuration="3s"
+                                            completed={skill.completed}>
+                                        </ProgressBar>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div class="card skills-card px-3 " style={{width: "8rem;"}}>
-                                <div class="card-body">
-                                    <h6 className="card-title">Apple Technology</h6>
-                                    <hr className="title-underline"/>
-                                    <h5 className="card-sub-title">Web Application Manager</h5>
-                                    <h6>2009 - 2012</h6>
-                                    <p className="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
-                                    <h6 className="card-footer px-0">Performence</h6>
-                                    <ProgressBar
-                                        height="5px"
-                                        bgColor="#55E6A5"
-                                        isLabelVisible={false}
-                                        animateOnRender={true}
-                                        transitionDuration="3s"
-                                        completed="75">
-                                     </ProgressBar>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div class="card skills-card px-3 " style={{width: "8rem;"}}>
-                                <div class="card-body">
-                                    <h6 className="card-title">Softech Agency</h6>
-                                    <hr className="title-underline"/>
-                                    <h5 className="card-sub-title">Wordpress and End Developer</h5>
-                                    <h6>2014 - 2018</h6>
-                                    <p className="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
-                                    <h6 className="card-footer px-0">Performence</h6>
-                                    <ProgressBar
-                                        height="5px"
-                                        bgColor="#55E6A5"
-                                        isLabelVisible={false}
-                                        animateOnRender={true}
-                                        transitionDuration="3s"
-                                        completed="75">
-                                    </ProgressBar>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div class="card skills-card px-3 " style={{width: "8rem;"}}>
-                                <div class="card-body">
-                                    <h6 className="card-title">Kent State University</h6>
-                                    <hr className="title-underline"/>
-                                    <h5 className="card-sub-title">Framer Designer & Developer</h5>
-                                    <h6>2005 - 2009</h6>
-                                    <p className="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</p>
-                                    <h6 className="card-footer px-0">Performence</h6>
-                                    <ProgressBar
-                                        height="5px"
-                                         bgColor="#55E6A5"
-                                        isLabelVisible={false}
-                                         animateOnRender={true}
-                                        transitionDuration="3s"
-                                        completed="75">
-                                     </ProgressBar>
-                                </div>
-                            </div>
-                        </div>
+                        ))
+                        }
                     </div>
                 </div>
             </section>

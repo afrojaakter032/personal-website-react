@@ -24,7 +24,6 @@ function RecentProtfolio() {
                             <div className="col-lg-4">
                                 <img src="assets/images/6.png" alt="image" style={{width: "100%", height:"500px"}} />
                             </div>
-                        
                             <div className="col-lg-4">
                                 <img src="assets/images/7.png" alt="image" style={{width: "100%", height:"500px"}} />
                             </div>
@@ -47,8 +46,8 @@ function RecentProtfolio() {
                                                             <li>* design</li>
                                                             <li>* world</li>
                                                             <li>* Development</li>
-                                                        </ul>    
-                                                    </marquee>    
+                                                        </ul>
+                                                    </marquee>
                                                 </div>
                                             </div>
                                     </div>
@@ -57,8 +56,6 @@ function RecentProtfolio() {
                     </div>
                 </div>
             </section>
-        
-        
         </>
     );
 }
