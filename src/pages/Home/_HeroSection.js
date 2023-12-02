@@ -3,7 +3,7 @@ import Button from "../../components/Layout/UI/Button";
 function HeroSection(){
     return(
         <>
-            <section className="hero-section ">
+            <section className="hero-section px-3 ">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-12 hero-image">
@@ -12,8 +12,8 @@ function HeroSection(){
                                     <div>Hi, I'M AFROZA!</div>
                                     <div>CREATIVE CODER</div>
                                 </div>
-                                <div className="pt-5">
-                                    <p className="fs-5 w-50">I'm a passionate UI/UX designer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
+                                <div className="pt-5 col-lg-6">
+                                    <p className="fs-5">I'm a passionate UI/UX designer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
                                 </div>
                                 <div className="d-flex  align-items-center">
                                     <div className=" pt-5 ">

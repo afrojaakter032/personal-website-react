@@ -1,4 +1,5 @@
 import React from "react";
+import 'animate.css';
 
 function ServiceSection() {
   let cards = [
@@ -26,7 +27,7 @@ function ServiceSection() {
             <div className="row">
                 <div className="col-lg-12">
                 <div className="layout-space pb-5 text-center">
-                    <div className="h3 text-primary">MY SERVICE</div>
+                    <div className="h3 text-primary  animate__animated animate__bounceInLeft animate__faster">MY SERVICE</div>
                     <div className="display-6 fw-bold">
                     Bringing your vision to life with precision and passion
                     </div>

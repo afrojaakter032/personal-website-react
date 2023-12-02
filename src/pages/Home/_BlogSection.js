@@ -8,7 +8,7 @@ function BlogSection() {
                     <div className="row">
                         <div className="col-lg-12">
                         <div className="layout-space py-5 text-center">
-                            <div className="h3 text-primary">ALL BLOG</div>
+                            <div className="h3 text-primary animate__animated animate__fadeInTopRight">ALL BLOG</div>
                             <div className="display-6 fw-bold w-75 mx-auto">
                                 Rafting Unique Experiences Inspiring Connections
                             </div>
