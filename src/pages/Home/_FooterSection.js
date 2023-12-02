@@ -1,48 +1,43 @@
 import React from "react";
 
 function FooterSection() {
+    let footercards = [
+        {
+            title: "Phone",
+            text: "With supporting text below as a natural lead-in to additional content.",
+            link: "123-45669-746859"
+        },
+
+        {
+            title: "Location",
+            text: "With supporting text below as a natural lead-in to additional content.",
+            link: "view on map"
+        },
+        {
+            title: "Monday-Sunday",
+            text: "With supporting text below as a natural lead-in to additional content.",
+            link: "tinnithegreat@gmail.com"
+        }
+    ]
     return(
         <>
         <section className="footer-section mt-150">
             <div className="container-fluid">
                 <div className="row">
-                <div className="col-lg-4">
+                {footercards.map ((footercard, index) => (
+                    <div className="col-lg-4" key={index}>
                     <div class="card text-center">
                         <div class="card-img pt-4">
                             <i class="ph ph-device-tablet-speaker display-1"></i>
                         </div>
                         <div class="card-body">
-                        <h5 class="card-title fs-3">Phone</h5>
-                        <p class="card-text fs-4">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" className="fs-5">123-45669-746859</a>
+                        <h5 class="card-title fs-3">{footercard.title}</h5>
+                        <p class="card-text fs-4">{footercard.text}</p>
+                        <a href="#" className="fs-5">{footercard.link}</a>
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4">
-                    <div class="card text-center">
-                        <div class="card-img pt-4">
-                            <i class="ph ph-device-tablet-speaker display-1"></i>
-                        </div>
-                        <div class="card-body">
-                        <h5 class="card-title fs-3">Location</h5>
-                        <p class="card-text fs-4">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" className="fs-5">view on map</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4">
-                    <div class="card text-center">
-                        <div class="card-img pt-4">
-                            <i class="ph ph-device-tablet-speaker display-1"></i>
-                        </div>
-                        <div class="card-body">
-                        <h5 class="card-title fs-3">Monday-Sunday</h5>
-                        <p class="card-text fs-4">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" className="fs-5">tinnithegreat@gmail.com</a>
-                        </div>
-                    </div>
-                </div>
-
+                ))}
                 <form className="mt-150">
                     <div class="row">
                         <div className="col-lg-6">
