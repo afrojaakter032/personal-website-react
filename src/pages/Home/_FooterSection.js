@@ -21,7 +21,7 @@ function FooterSection() {
     ]
     return(
         <>
-        <section className="footer-section mt-150">
+        <section className="footer-section px-3 mt-150">
             <div className="container-fluid">
                 <div className="row">
                 {footercards.map ((footercard, index) => (

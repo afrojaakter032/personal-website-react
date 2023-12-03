@@ -3,7 +3,7 @@ import React from "react";
 function BlogSection() {
     return(
         <>
-            <section className="blog-section mt-150 layout-space">
+            <section className="blog-section mt-150 px-3 layout-space">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-12">

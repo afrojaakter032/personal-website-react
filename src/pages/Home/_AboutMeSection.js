@@ -2,7 +2,7 @@ import React from "react";
 function AboutMeSection(){
     return(
         <>
-            <section className="about-me-section" id="aboute-me-section">
+            <section className="about-me-section px-3" id="aboute-me-section">
                 <div className="container-fluid">
                     <div className='row'>
                         <div className="col-lg-12">

@@ -4,7 +4,7 @@ import React from "react";
 function RecentProtfolio() {
     return(
         <>
-            <section className="recent-protfolio-section mt-150 layout-space">
+            <section className="recent-protfolio-section mt-150 px-3 layout-space">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-12">
