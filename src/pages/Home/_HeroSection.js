@@ -6,12 +6,13 @@ function HeroSection(){
             <section className="hero-section px-3 ">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-lg-12 hero-image">
+                        <div className="col-lg-6 hero-image d-flex align-items-center justify-content-end">
                             <div className="layout-space pt-5">
                                 <div className="pt-5 fw-bold display-4">
                                     <div>Hi, I'M AFROZA!</div>
                                     <div>CREATIVE CODER</div>
                                 </div>
+                                
                                 <div className="pt-5 col-lg-6">
                                     <p className="fs-5">I'm a passionate UI/UX designer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
                                 </div>
@@ -26,6 +27,10 @@ function HeroSection(){
                                     </div>
                                     <div className=" pt-5">Watch the video</div>
                                 </div>
+                                
+                            </div>
+                            <div className="col-lg-6">
+                                <iframe src="https://assets.pinterest.com/ext/embed.html?id=788763322238290029" height="350" width="345" frameborder="0" ></iframe>
                             </div>
                         </div>
                     </div>

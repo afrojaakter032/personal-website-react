@@ -78,7 +78,7 @@ function SkillSection() {
                                         <h6 className="card-footer px-0">{skill.footer}</h6>
                                         <ProgressBar
                                             height="5px"
-                                            bgColor="#55E6A5"
+                                            bgColor="#83A2FF"
                                             isLabelVisible={false}
                                             animateOnRender={true}
                                             transitionDuration="3s"
