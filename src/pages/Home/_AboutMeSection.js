@@ -2,7 +2,7 @@ import React from "react";
 function AboutMeSection(){
     return(
         <>
-            <section className="about-me-section px-3" id="aboute-me-section">
+            <section className="about-me-section px-3 mt-150"  id="aboute-me-section">
                 <div className="container-fluid">
                     <div className='row'>
                         <div className="col-lg-12">
@@ -26,8 +26,8 @@ function AboutMeSection(){
                                 </div>
                             </div>
                             <div className="col-lg-6 experience-image">
-                                <img src="./assets/images/about_shapes.png" alt="image" className="experience-decor" height={150} width={150} />
-                                <img className="" src="./assets/images/about_img_2.jpg" alt="image" width={"auto"} height={"auto"} />
+                                {/* <img src="./assets/images/about_shapes.png" alt="image" className="experience-decor" height={150} width={150} /> */}
+                                <img className="" src="./assets/images/aa1.png" alt="image" width={"auto"} height={"auto"} />
                                 <div className="experience-card pb-5 d-flex align-items-center justify-content-start">
                                     <div className="pt-4 px-3 experience-badge"><i class="ph-fill ph-shield-chevron display-4"></i></div>
                                     <div>

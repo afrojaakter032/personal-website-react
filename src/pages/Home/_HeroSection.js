@@ -3,10 +3,10 @@ import Button from "../../components/Layout/UI/Button";
 function HeroSection(){
     return(
         <>
-            <section className="hero-section px-3 ">
+            <section className="hero-section px-3 " id="hero-section">
                 <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-lg-6 hero-image d-flex align-items-center justify-content-end">
+                    <div className="row d-flex align-items-center justify-content-center">
+                        <div className="col-lg-6 hero-image">
                             <div className="layout-space pt-5">
                                 <div className="pt-5 fw-bold display-4">
                                     <div>Hi, I'M AFROZA!</div>
@@ -29,10 +29,11 @@ function HeroSection(){
                                 </div>
                                 
                             </div>
-                            <div className="col-lg-6">
-                                <iframe src="https://assets.pinterest.com/ext/embed.html?id=788763322238290029" height="350" width="345" frameborder="0" ></iframe>
-                            </div>
+
                         </div>
+                        <div className="col-lg-6">
+                                <img src="./assets/images/hero2.png" alt="hero-img" width={"550"} height={"550"} />
+                            </div>
                     </div>
                 </div>
             </section>

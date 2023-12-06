@@ -43,7 +43,7 @@ function SkillSection() {
 
     return(
         <>
-            <section className="skills-section mt-150 px-3 layout-space">
+            <section className="skills-section mt-150 px-3 layout-space" id="skills-section">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-12">

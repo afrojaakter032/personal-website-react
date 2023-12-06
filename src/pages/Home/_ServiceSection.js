@@ -22,7 +22,7 @@ function ServiceSection() {
 
   return (
     <>
-        <section className="service-section mt-150 layout-space">
+        <section className="service-section mt-150 layout-space" id="service-section">
             <div className="container-fluid">
             <div className="row">
                 <div className="col-lg-12">
