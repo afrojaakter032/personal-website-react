@@ -1,5 +1,6 @@
 
 import React from "react";
+import Marquee from "react-fast-marquee";
 
 function RecentProtfolio() {
     return(
@@ -39,7 +40,7 @@ function RecentProtfolio() {
                             <div className="col-lg-12">
                                     <div className="mt-150">
                                                 <div className="protfolio-slider-content d-flex align-items-center justify-content-center">
-                                                    <marquee direction="scroll">
+                                                    <Marquee>
                                                         <ul className="d-flex gap-3">
                                                             <li>* PHP</li>
                                                             <li>* Python</li>
@@ -47,7 +48,7 @@ function RecentProtfolio() {
                                                             <li>* world</li>
                                                             <li>* Development</li>
                                                         </ul>
-                                                    </marquee>
+                                                    </Marquee>
                                                 </div>
                                             </div>
                                     </div>
