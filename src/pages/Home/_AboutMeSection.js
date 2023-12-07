@@ -16,13 +16,13 @@ function AboutMeSection(){
                                     {/* <img className="" src="/assets/images/about_1.png" alt="image" width={100} height={100} /> */}
                                     <i class="ph ph-atom display-1 ambition-icon"></i>
                                     <div className="display-6 fw-bold pb-2">My Ambition</div>
-                                    <p className="fs-5 w-90">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
+                                    <p className="fs-5 w-90">I aim to showcase an innovative blend of cutting-edge design and technical prowess. With a focus on problem-solving and collaborative projects, I aspire to exhibit not just my skills but also the tangible impact of my work on clients' businesses. Through continuous learning and growth initiatives, I'm dedicated to staying at the forefront of front-end technologies. My portfolio reflects not just past accomplishments but also hints at my ambitions to delve deeper into design niches, master new technologies, and pursue leadership roles in the future.</p>
                                 </div>
                                 <div className="layout-space pb-5">
                                     {/* <img className="" src="./assets/images/about_2.png" alt="image" width={100} height={100} /> */}
                                     <i class="ph ph-flame display-1 purpose-icon"></i>
                                     <div className="display-6 fw-bold pb-2">My Purpose</div>
-                                    <p className="fs-5 w-90">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
+                                    <p className="fs-5 w-90">serves as a dynamic canvas, capturing my passion for front-end development and web design. It's more than a collection of projects; it's a testament to my commitment to innovative design solutions and technical excellence. Through a curated showcase of projects, I aim to demonstrate my problem-solving skills, collaborative spirit, and the real-world impact of my work on clients. This portfolio isn't just a reflection of my past; it's a glimpse into my future aspirations, highlighting my dedication to continuous learning, growth, and the pursuit of new challenges in the ever-evolving landscape of web development.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 experience-image">

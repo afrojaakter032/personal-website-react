@@ -14,7 +14,7 @@ function HeroSection(){
                                 </div>
                                 
                                 <div className="pt-5 col-lg-6">
-                                    <p className="fs-5">I'm a passionate UI/UX designer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
+                                    <p className="fs-5">I'm a passionate React developer/web designer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
                                 </div>
                                 <div className="d-flex  align-items-center">
                                     <div className=" pt-5 ">
