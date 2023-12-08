@@ -10,19 +10,19 @@ function ServiceSection() {
     },
     {
       icon:"ph ph-framer-logo",
-      title: "LOGO DESIGN",
+      title: "HTML to REACT",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
     },
     {
       icon: "ph ph-app-window",
-      title: "APPS DEVELOPMENT",
+      title: "NEXT.JS",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
     },
   ];
 
   return (
     <>
-        <section className="service-section mt-150 layout-space" id="service-section">
+        <section className="service-section px-3 mt-150 layout-space" id="service-section">
             <div className="container-fluid">
             <div className="row">
                 <div className="col-lg-12">

@@ -25,15 +25,17 @@ function AboutMeSection(){
                                     <p className="fs-5 w-90">serves as a dynamic canvas, capturing my passion for front-end development and web design. It's more than a collection of projects; it's a testament to my commitment to innovative design solutions and technical excellence. Through a curated showcase of projects, I aim to demonstrate my problem-solving skills, collaborative spirit, and the real-world impact of my work on clients. This portfolio isn't just a reflection of my past; it's a glimpse into my future aspirations, highlighting my dedication to continuous learning, growth, and the pursuit of new challenges in the ever-evolving landscape of web development.</p>
                                 </div>
                             </div>
-                            <div className="col-lg-6 experience-image">
-                                {/* <img src="./assets/images/about_shapes.png" alt="image" className="experience-decor" height={150} width={150} /> */}
-                                <img className="" src="./assets/images/aa1.png" alt="image" width={"auto"} height={"auto"} />
+                            <div className="col-lg-6">
+                                <div className="experience-image d-flex align-items-center justify-content-end px-2">
+                                    {/* <img src="./assets/images/about_shapes.png" alt="image" className="experience-decor" height={150} width={150} /> */}
+                                <img  src="./assets/images/aa1.png" alt="image" width={"auto"} height={"auto"} />
                                 <div className="experience-card pb-5 d-flex align-items-center justify-content-start">
                                     <div className="pt-4 px-3 experience-badge"><i class="ph-fill ph-shield-chevron display-4"></i></div>
                                     <div>
                                         <div className=" text-secondary fw-bold fs-1 ">15+</div>
                                         <div className="text-secondary fw-bold fs-5">Years of Experience</div>
                                     </div>
+                                </div>
                                 </div>
                             </div>
                     </div>
