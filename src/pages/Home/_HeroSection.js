@@ -1,6 +1,9 @@
 import React from "react";
 import Button from "../../components/Layout/UI/Button";
+import { TypeAnimation } from 'react-type-animation';
+import { useState } from "react";
 function HeroSection(){
+    const [textColor, setTextColor] = useState('red')
     return(
         <>
             <section className="hero-section px-3 " id="hero-section">
@@ -10,7 +13,28 @@ function HeroSection(){
                             <div className="layout-space pt-5">
                                 <div className="pt-5 fw-bold display-4">
                                     <div>Hi, I'M AFROZA!</div>
-                                    <div>CREATIVE CODER</div>
+                                    {/* <div>CREATIVE CODER</div> */}
+                                    <div style={{
+                                        color: textColor,}}>
+                                        <TypeAnimation
+                                            sequence={[
+                                                'CREATIVE',
+                                                800,
+                                                () => setTextColor('aqua'),
+
+                                                'CREATIVE CODER',
+                                                800,
+                                                () => setTextColor('deeppink'),
+
+                                                'CREATIVE CODER DEVELOPER',
+                                                1000,
+                                                () => setTextColor('darkkhaki'),
+
+                                                '',
+                                            ]}
+                                            repeat={Infinity}
+                                        />
+                                    </div>
                                 </div>
                                 
                                 <div className="pt-5 col-lg-6">
