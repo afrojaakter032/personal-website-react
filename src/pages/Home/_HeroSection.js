@@ -13,20 +13,19 @@ function HeroSection(){
                             <div className="layout-space pt-5">
                                 <div className="pt-5 fw-bold display-4">
                                     <div>Hi, I'M AFROZA!</div>
-                                    {/* <div>CREATIVE CODER</div> */}
                                     <div style={{
                                         color: textColor,}}>
                                         <TypeAnimation
                                             sequence={[
-                                                'CREATIVE',
+                                                'WEB DESIGNER',
                                                 800,
                                                 () => setTextColor('aqua'),
 
-                                                'CREATIVE CODER',
+                                                'REACT DEVELOPER',
                                                 800,
                                                 () => setTextColor('deeppink'),
 
-                                                'CREATIVE CODER DEVELOPER',
+                                                'NEXT.JS DEVELOPER',
                                                 1000,
                                                 () => setTextColor('darkkhaki'),
 
@@ -36,7 +35,6 @@ function HeroSection(){
                                         />
                                     </div>
                                 </div>
-                                
                                 <div className="pt-5 col-lg-6">
                                     <p className="fs-5">I'm a passionate React developer/web designer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
                                 </div>
@@ -51,9 +49,7 @@ function HeroSection(){
                                     </div>
                                     <div className=" pt-5">Watch the video</div>
                                 </div>
-                                
                             </div>
-
                         </div>
                         <div className="col-lg-6">
                                 <img src="./assets/images/hero2.png" alt="hero-img" width={"550"} height={"550"} />
