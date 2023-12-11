@@ -32,10 +32,10 @@ function BlogSection() {
     // ]
     useEffect(() => {
 
-        fetch('https://dev.to/api/articles')
+        fetch('https://dev.to/api/articles?per_page=6&tag=javascript')
         .then(res => res.json())
-        .then(() => {
-            setBlog()
+        .then((data) => {
+            setBlog(data)
 
         }, [])
     });
@@ -56,7 +56,7 @@ function BlogSection() {
                     <div className="row">
                         {blogs.map((blog,index) => (
                             <div className="col-lg-4 py-5" key={index}>
-                            <img src={blog.cover_image} alt="image" />
+                            <img src={blog.cover_image} alt="image" style={{height:350, width: 350}} />
                             <div className="d-flex gap-3">
                                 <div><i class="ph ph-user-circle px-3"></i>{blog.user.username} </div>
                                 <div><i class="ph ph-chats-circle px-3"></i>{blog.comments_count} </div>
