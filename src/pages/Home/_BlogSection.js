@@ -1,5 +1,6 @@
 import React from "react";
 import { useState,  useEffect } from "react";
+import { Link } from "react-router-dom";
 
 
 
@@ -61,7 +62,9 @@ function BlogSection() {
                                 <div><i class="ph ph-user-circle px-3"></i>{blog.user.username} </div>
                                 <div><i class="ph ph-chats-circle px-3"></i>{blog.comments_count} </div>
                             </div>
-                            <div className="h3 py-3">{blog.title}</div>
+                            <div>
+                                <Link to="/" className="h3 py-3">{blog.title}</Link>
+                            </div>
                             <p className="fs-4">{blog.description}</p>
 
                         </div>
