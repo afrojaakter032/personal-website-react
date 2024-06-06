@@ -68,8 +68,8 @@ function SkillSection() {
                     <div className="row mt-150 py-5  g-4">
                         {skills.map((skill, index) => (
                             <div className="col-lg-6" key={index}>
-                                <div class="card skills-card px-3 " style={{width: "8rem;"}}>
-                                    <div class="card-body">
+                                <div className="card skills-card px-3">
+                                    <div className="card-body">
                                         <h6 className="card-title">{skill.title}</h6>
                                         <hr className="title-underline"/>
                                         <h5 className="card-sub-title">{skill.sub_title}</h5>

@@ -25,7 +25,7 @@ function HeroSection(){
                                                 800,
                                                 () => setTextColor('deeppink'),
 
-                                                'NEXT.JS DEVELOPER',
+                                                'FRONT-END DEVELOPER',
                                                 1000,
                                                 () => setTextColor('darkkhaki'),
 
@@ -40,19 +40,19 @@ function HeroSection(){
                                 </div>
                                 <div className="d-flex  align-items-center">
                                     <div className=" pt-5 ">
-                                        {/* <button className="btn btn-primary px-4 py-3 fw-bold">{"text"=text} <i class="ph ph-download-simple"> </i></button> */}
+                                        {/* <button className="btn btn-primary px-4 py-3 fw-bold">{"text"=text} <i className="ph ph-download-simple"> </i></button> */}
                                         <Button text="Download CV" icon="ph ph-download-simple" className="px-4 py-3 fw-bold" />
                                     </div>
 
                                     <div className=" px-4 pt-5">
-                                        <button className="btn  btn-circle d-flex align-items-center"><i class="ph-fill ph-play fs-4"></i></button>
+                                        <button className="btn  btn-circle d-flex align-items-center"><i className="ph-fill ph-play fs-4"></i></button>
                                     </div>
                                     <div className=" pt-5">Watch the video</div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
-                                <img src="./assets/images/hero2.png" alt="hero-img" width={"550"} height={"550"} />
+                                <img src="https://img.lovepik.com/element/45012/4671.png_300.png" alt="hero-img" width={"550"} height={"550"} />
                             </div>
                     </div>
                 </div>

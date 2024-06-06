@@ -4,15 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter,  RouterProvider} from "react-router-dom";
-import BlogSection from './pages/Home/_BlogSection';
+// import BlogSection from './pages/Home/_BlogSection';
 
-const router = createBrowserRouter ([
+// const router = createBrowserRouter ([
 
-  {
-    path: "/",
-    element: <BlogSection />,
-  },
-]);
+//   {
+//     path: "/",
+//     element: <BlogSection />,
+//   },
+// ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

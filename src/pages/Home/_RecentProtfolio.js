@@ -20,19 +20,13 @@ function RecentProtfolio() {
                     <div className="protfolio-gallery">
                         <div className="row g-3">
                             <div className="col-lg-4">
-                                <img src="assets/images/5.png" alt="image" style={{width: "100%", height:"500px"}} />
+                                <img src="assets/images/burgerbar.jpeg" alt="image" style={{width: "100%", height:"280px"}} />
                             </div>
                             <div className="col-lg-4">
-                                <img src="assets/images/6.png" alt="image" style={{width: "100%", height:"500px"}} />
+                                <img src="assets/images/restrurant.jpeg" alt="image" style={{width: "100%", height:"280px"}} />
                             </div>
                             <div className="col-lg-4">
-                                <img src="assets/images/7.png" alt="image" style={{width: "100%", height:"500px"}} />
-                            </div>
-                            <div className="col-lg-4">
-                                <img src="assets/images/8.png" alt="image" style={{width: "100%", height:"500px"}} />
-                            </div>
-                            <div className="col-lg-4">
-                                <img src="assets/images/9.png" alt="image" style={{width: "100%", height:"500px"}} />
+                                <img src="assets/images/yt-clone.jpeg" alt="image" style={{width: "100%", height:"280px"}} />
                             </div>
                         </div> 
                         <div className="row py-5">

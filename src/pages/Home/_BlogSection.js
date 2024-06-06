@@ -2,10 +2,8 @@ import React from "react";
 import { useState,  useEffect } from "react";
 import { Link } from "react-router-dom";
 
-
-
 function BlogSection() {
-    let[blogs, setBlog] = useState([]);
+    let [blogs, setBlogs] = useState([]);
     // let blogs = [
     //     {
     //         image: "/assets/images/4.jpg",
@@ -32,14 +30,13 @@ function BlogSection() {
     //     }
     // ]
     useEffect(() => {
-
         fetch('https://dev.to/api/articles?per_page=6&tag=javascript')
         .then(res => res.json())
         .then((data) => {
-            setBlog(data)
+            setBlogs(data)
+        })
+    }, []);
 
-        }, [])
-    });
     return(
         <>
             <section className="blog-section mt-150 px-3 layout-space">
@@ -56,22 +53,23 @@ function BlogSection() {
                     </div>
                     <div className="row">
                         {blogs.map((blog,index) => (
-                            <div className="col-lg-4 py-5" key={index}>
-                            <img src={blog.cover_image} alt="image" style={{height:350, width: 350}} />
-                            <div className="d-flex gap-3">
-                                <div><i class="ph ph-user-circle px-3"></i>{blog.user.username} </div>
-                                <div><i class="ph ph-chats-circle px-3"></i>{blog.comments_count} </div>
+                            <div className="col-lg-4 py-5" key={`blog-`+index}>
+                                <div>
+                                    <img className="d-block" src={blog.cover_image ?? blog.social_image} alt="image" width="100%" height="250" style={{height: "250px"}} />
+                                </div>
+
+                                <div className="d-flex gap-3">
+                                    <div><i className="ph ph-user-circle px-3"></i>{blog.user.username} </div>
+                                    <div><i className="ph ph-chats-circle px-3"></i>{blog.comments_count} </div>
+                                </div>
+
+                                <div>
+                                    <a href="/" className="h3 py-3">{blog.title}</a>
+                                </div>
+
+                                <p className="fs-4">{blog.description}</p>
                             </div>
-                            <div>
-                                <Link to="/" className="h3 py-3">{blog.title}</Link>
-                            </div>
-                            <p className="fs-4">{blog.description}</p>
-
-                        </div>
-                        ))
-
-                        }
-
+                        ))}
                     </div>
                 </div>
             </section>
