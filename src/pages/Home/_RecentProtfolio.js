@@ -1,7 +1,6 @@
 
 import React from "react";
 import Marquee from "react-fast-marquee";
-import { Link } from "react-router-dom";
 
 function RecentProtfolio() {
     return(
@@ -21,28 +20,28 @@ function RecentProtfolio() {
                     <div className="protfolio-gallery">
                         <div className="row g-3">
                             <div className="col-lg-4 protfolio-gallery-item">
-                                <img src="assets/images/burgerbar.jpeg" alt="image" style={{width: "100%", height:"280px"}} />
+                                <img src="assets/images/burgerbar.jpeg" alt="burgerbar" style={{width: "100%", height:"280px"}} />
                                 <div className="protfolio-gallery-item-link">
                                     {/* <Link to="https://af-youtube-clone-reactjs.netlify.app/">Live Preview</Link> */}
                                     {/* <a href="https://af-youtube-clone-reactjs.netlify.app/" target="_blank">Live Preview</a> */}
                                 </div>
                             </div>
                             <div className="col-lg-4 protfolio-gallery-item">
-                                <img src="assets/images/restrurant.jpeg" alt="image" style={{width: "100%", height:"280px"}} />
+                                <img src="assets/images/restrurant.jpeg" alt="restraurant" style={{width: "100%", height:"280px"}} />
                                 <div className="protfolio-gallery-item-link">
                                     {/* <Link to="https://af-youtube-clone-reactjs.netlify.app/">Live Preview</Link> */}
                                     {/* <a href="https://divine-dining-restraurant.netlify.app/" target="_blank">Live Preview</a> */}
                                 </div>
                             </div>
                             <div className="col-lg-4 protfolio-gallery-item">
-                                <img src="assets/images/yt-clone.jpeg" alt="image" style={{width: "100%", height:"280px"}} />
+                                <img src="assets/images/yt-clone.jpeg" alt="yt" style={{width: "100%", height:"280px"}} />
                                 <div className="protfolio-gallery-item-link">
                                     {/* <Link to="https://af-youtube-clone-reactjs.netlify.app/">Live Preview</Link> */}
                                     {/* <a href="https://afroja-restraurant.netlify.app/" target="_blank">Live Preview</a> */}
                                 </div>
                             </div>
                             <div className="col-lg-4 protfolio-gallery-item">
-                                <img src="assets/images/moneydivider.jpeg" alt="image" style={{width: "100%", height:"280px"}} />
+                                <img src="assets/images/moneydivider.jpeg" alt="moneydivider" style={{width: "100%", height:"280px"}} />
                                 <div className="protfolio-gallery-item-link">
                                     {/* <Link to="https://af-youtube-clone-reactjs.netlify.app/">Live Preview</Link> */}
                                     {/* <a href="https://moneydivider.netlify.app/" target="_blank">Live Preview</a> */}

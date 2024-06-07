@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function FooterSection() {
     let footercards = [
@@ -33,7 +34,7 @@ function FooterSection() {
                         <div className="card-body">
                         <h5 className="card-title fs-3">{footercard.title}</h5>
                         <p className="card-text fs-4">{footercard.text}</p>
-                        <a href="#" className="fs-5">{footercard.link}</a>
+                        <Link to="" className="fs-5">{footercard.link}</Link>
                         </div>
                     </div>
                 </div>
@@ -70,9 +71,9 @@ function FooterSection() {
                     <div className="footer-content d-flex justify-content-between align-items-center">
                         <span className="left fs-5">© CodeeFly 2023 | All Rights Reserved</span>
                         <span className="right d-flex gap-3 fs-5">
-                        <a href="#">Terms and Conditions</a> |
-                        <a href="#">Privacy & policy</a> |
-                        <a href="#">Sitemap</a>
+                        <Link to="">Terms and Conditions</Link> |
+                        <Link to="">Privacy & policy</Link> |
+                        <Link to="">Sitemap</Link>
                         </span>
                     </div>
                 </div>

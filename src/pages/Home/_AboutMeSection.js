@@ -28,7 +28,7 @@ function AboutMeSection(){
                             <div className="col-lg-6">
                                 <div className="experience-image d-flex align-items-center justify-content-end px-2">
                                     {/* <img src="./assets/images/about_shapes.png" alt="image" className="experience-decor" height={150} width={150} /> */}
-                                <img  src="./assets/images/aa1.png" alt="image" width={"auto"} height={"auto"} />
+                                <img  src="./assets/images/aa1.png" alt="movie" width={"auto"} height={"auto"} />
                                 <div className="experience-card pb-5 d-flex align-items-center justify-content-start">
                                     <div className="pt-4 px-3 experience-badge"><i className="ph-fill ph-shield-chevron display-4"></i></div>
                                     <div>

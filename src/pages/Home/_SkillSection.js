@@ -1,6 +1,6 @@
 
 import Button from "../../components/Layout/UI/Button";
-import ProgressBar from "@ramonak/react-progress-bar";
+// import ProgressBar from "@ramonak/react-progress-bar";
 
 
 function SkillSection() {

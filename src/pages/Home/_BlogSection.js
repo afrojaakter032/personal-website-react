@@ -1,6 +1,5 @@
 import React from "react";
 import { useState,  useEffect } from "react";
-import { Link } from "react-router-dom";
 
 function BlogSection() {
     let [blogs, setBlogs] = useState([]);
@@ -55,7 +54,7 @@ function BlogSection() {
                         {blogs.map((blog,index) => (
                             <div className="col-lg-4 py-5" key={`blog-`+index}>
                                 <div>
-                                    <img className="d-block" src={blog.cover_image ?? blog.social_image} alt="image" width="100%" height="250" style={{height: "250px"}} />
+                                    <img className="d-block" src={blog.cover_image ?? blog.social_image} alt="cover" width="100%" height="250" style={{height: "250px"}} />
                                 </div>
 
                                 <div className="d-flex gap-3">
