@@ -5,18 +5,18 @@ function ServiceSection() {
   let cards = [
     {
       icon: "ph ph-browser" ,
-      title: "WEBSITE DESIGN",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+      title: "HTML DESIGN",
+      text: "We offer professional web design services to help you create a stunning and functional website. Our team will work with you to understand your needs and build a site that reflects your brand",
     },
     {
       icon:"ph ph-framer-logo",
-      title: "HTML to REACT",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+      title: "FIGMA TO HTML",
+      text: "Transform your Figma designs into fully functional HTML websites with our expert conversion services. We ensure your designs come to life with pixel-perfect accuracy and responsiveness",
     },
     {
       icon: "ph ph-app-window",
-      title: "NEXT.JS",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+      title: "REACTJS",
+      text: "We specialize in converting your static HTML websites into dynamic and interactive ReactJS applications. Our services ensure your site is modern, efficient, and easy to maintain",
     },
   ];
 

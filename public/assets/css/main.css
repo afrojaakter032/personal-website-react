@@ -6,20 +6,19 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: black;
+    background-color: #0d0d0d;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
 
-
 :root {
-    --primary: #83A2FF;
+    --primary: #fd7aa8;
     --white: #fff;
-    --colorblack: black;
+    --colorblack: #0d0d0d;
     --gray: #09101a;
     --gray-900: #141c27;
-
 }
+
 .btn-gray {
     background-color: var(--gray) !important;
     color: var(--white);
@@ -132,6 +131,10 @@ body {
 .btn-icon {
     border-radius: 5px;
 }
+
+.nav-link {
+    color: var(--primary) !important;
+}
 /* about section */
 
 .ambition-icon {
@@ -172,6 +175,7 @@ color: var(--primary);
 }
 
 /* service section */
+
 .card-body {
     position: relative;
 }
@@ -209,9 +213,10 @@ color: var(--primary);
 /* skills section */
 .skills-section {
     background: var(--gray);
+    padding-bottom: 30px;
 }
 
-.skills-card {
+/* .skills-card {
     background-color: var(--gray-900);
     border: 1px solid gray;
 
@@ -223,7 +228,7 @@ color: var(--primary);
 
 .progress-bar {
     border: 5px solid #55E6A5 !important;
-}
+} */
 
 /* recent-protfolio-section  */
 
@@ -239,7 +244,25 @@ color: var(--primary);
     background-color: var(--primary);
 
 } */
+.protfolio-gallery-item {
+    position: relative;
+}
 
+.protfolio-gallery-item-link {
+    position: absolute;
+    bottom: 30px;
+    left: 160px;
+
+}
+.protfolio-gallery-item-link a {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.protfolio-gallery-item-link a:hover {
+    color: black;
+}
 .protfolio-slider-content {
     background-color: var(--primary);
     height: 200px;
@@ -275,7 +298,9 @@ color: var(--primary);
 }
 
 /* footer-section */
-
+.card {
+    height: 380px;
+}
 .card-img i {
     color: var(--primary);
     text-decoration: none;

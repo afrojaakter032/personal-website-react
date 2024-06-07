@@ -4,42 +4,42 @@ import ProgressBar from "@ramonak/react-progress-bar";
 
 
 function SkillSection() {
-    let skills = [
-        {
-            title:"Creative Agency",
-            sub_title:"Framer Designer & Developer",
-            text:"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
-            footer:"Performence",
-            date:"2019 - Present",
-            completed: 70
-        },
+    // let skills = [
+    //     {
+    //         title:"Creative Agency",
+    //         sub_title:"Framer Designer & Developer",
+    //         text:"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
+    //         footer:"Performence",
+    //         date:"2019 - Present",
+    //         completed: 70
+    //     },
 
-        {
-            title:"Apple Technology",
-            sub_title:"Web Application Manager",
-            text:"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
-            footer:"Performence",
-            date:"2009 - 2012",
-            completed: 80
-        },
+    //     {
+    //         title:"Apple Technology",
+    //         sub_title:"Web Application Manager",
+    //         text:"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
+    //         footer:"Performence",
+    //         date:"2009 - 2012",
+    //         completed: 80
+    //     },
 
-        {
-            title:"Softech Agency",
-            sub_title:"Wordpress and End Developer",
-            text:"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
-            footer:"Performence",
-            date:"2014 - 2018",
-            completed: 65
-        },
-        {
-            title:"Kent State University",
-            sub_title:"Wordpress and End Developer",
-            text:"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
-            footer:"Performence",
-            date:"2005 - 2009",
-            completed: 50
-        }
-    ]
+    //     {
+    //         title:"Softech Agency",
+    //         sub_title:"Wordpress and End Developer",
+    //         text:"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
+    //         footer:"Performence",
+    //         date:"2014 - 2018",
+    //         completed: 65
+    //     },
+    //     {
+    //         title:"Kent State University",
+    //         sub_title:"Wordpress and End Developer",
+    //         text:"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thisnquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
+    //         footer:"Performence",
+    //         date:"2005 - 2009",
+    //         completed: 50
+    //     }
+    // ]
 
     return(
         <>
@@ -65,7 +65,7 @@ function SkillSection() {
                             </div>
                         </div>
                     </div>
-                    <div className="row mt-150 py-5  g-4">
+                    {/* <div className="row mt-150 py-5  g-4">
                         {skills.map((skill, index) => (
                             <div className="col-lg-6" key={index}>
                                 <div className="card skills-card px-3">
@@ -89,7 +89,7 @@ function SkillSection() {
                             </div>
                         ))
                         }
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </>

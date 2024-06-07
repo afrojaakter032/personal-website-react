@@ -52,7 +52,7 @@ function HeroSection(){
                             </div>
                         </div>
                         <div className="col-lg-6">
-                                <img src="https://img.lovepik.com/element/45012/4671.png_300.png" alt="hero-img" width={"550"} height={"550"} />
+                                <img src="./assets/images/hero-02.png" alt="hero-img" width={"550"} height={"550"} />
                             </div>
                     </div>
                 </div>

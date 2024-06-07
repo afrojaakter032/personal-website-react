@@ -4,13 +4,13 @@ function FooterSection() {
     let footercards = [
         {
             title: "Phone",
-            text: "With supporting text below as a natural lead-in to additional content.",
-            link: "123-45669-746859"
+            text: "Enhance your business communication with our professional phone number services.",
+            link: "01304224309"
         },
 
         {
             title: "Location",
-            text: "With supporting text below as a natural lead-in to additional content.",
+            text: "Maximize your business potential with our location-based services.",
             link: "view on map"
         },
         {
